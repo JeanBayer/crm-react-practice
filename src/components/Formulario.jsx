@@ -20,7 +20,22 @@ const Formulario = () => {
       .positive("El numero debe ser positivo"),
   });
 
-  const handleSubmit = (values) => {};
+  const handleSubmit = async (values) => {
+    try {
+      const url = "http://localhost:4000/clientes";
+      const respuesta = await fetch(url, {
+        method: "POST",
+        body: JSON.stringify(values),
+        headers: {
+          "Content-Type": "application/json",
+        },
+      });
+      const resultado = await respuesta.json();
+      console.log(resultado);
+    } catch (error) {
+      console.log(error);
+    }
+  };
   return (
     <div className="bg-white mt-10 px-5 py-10 rounded-md shadow-md md:w-3/4 mx-auto">
       <h1 className="text-gray-600 font-bold text-xl uppercase text-center">

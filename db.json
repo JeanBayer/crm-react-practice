@@ -1,0 +1,12 @@
+{
+  "clientes": [
+    {
+      "nombre": "jhan ",
+      "empresa": "Google",
+      "email": "jhanbayer@gmail.com",
+      "telefono": "953372278",
+      "notas": "Buscando Ando",
+      "id": 1
+    }
+  ]
+}
