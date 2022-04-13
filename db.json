@@ -13,7 +13,7 @@
       "empresa": "Facebook",
       "email": "orlando@orlando.com",
       "telefono": "233444",
-      "notas": "facebook ando\n",
+      "notas": "facebook ando",
       "id": 2
     },
     {
@@ -31,6 +31,14 @@
       "telefono": "233433",
       "notas": "neeeee",
       "id": 4
+    },
+    {
+      "nombre": "aaaa",
+      "empresa": "a",
+      "email": "jhancarlos2942@hotmail.com",
+      "telefono": "953363457",
+      "notas": "",
+      "id": 5
     }
   ]
 }
